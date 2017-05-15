@@ -1,2 +1,4 @@
-# photogalleries
-Sample usage of photogalleries
+# Photogalleries
+Sample usage of two photogalleries:
+* lightbox
+* slimbox
