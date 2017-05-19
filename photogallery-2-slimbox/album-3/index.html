@@ -4,23 +4,36 @@
 		<meta name="description" content="Album of American Indians" />
 		<meta name="keywords" content="Album, American Indians" />
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta charset="UTF-8">
 		
 		<title>Album of American Indians 3</title>
 		
 		<link rel="stylesheet" href="../slimbox/slimbox2-autosize.css" />
 
 		<style>
-			div.gallery {
+			.gallery {
+				width: 100%;
+				height: 100%;
+				overflow: auto;
+				background-color: #FF7C00;
+			}
+		
+			div.image {
+				float: left;
+				width: auto;
+				height: 260px;
+				margin: 5px;
+				background-color: #E57000;
 				border: 1px solid #BF5D00;
 			}
 
-			div.gallery:hover {
+			div.image:hover {
 				border: 1px solid #7F3E00;
 			}
 
-			div.gallery img {
-				width: 100%;
-				height: auto;
+			div.image img {
+				width: auto;
+				height: 200px;
 			}
 
 			div.desc {
@@ -33,165 +46,70 @@
 			* {
 				box-sizing: border-box;
 			}
-
-			.responsive {
-				padding: 0 12px 12px 0px;
-				float: left;
-				width: 10.0%;
-			}
-			
-			@media only screen and (max-width: 1700px){
-				.responsive {
-					width: 10.0%;
-					margin: 6px 0;
-				}
-			}
-			
-			@media only screen and (max-width: 1550px){
-				.responsive {
-					width: 11.0%;
-					margin: 6px 0;
-				}
-			}
-			
-			@media only screen and (max-width: 1400px){
-				.responsive {
-					width: 12.4999%;
-					margin: 6px 0;
-				}
-			}
-			
-			@media only screen and (max-width: 1250px){
-				.responsive {
-					width: 14.0%;
-					margin: 6px 0;
-				}
-			}
-			
-			@media only screen and (max-width: 1100px){
-				.responsive {
-					width: 16.6666%;
-					margin: 6px 0;
-				}
-			}
-			
-			@media only screen and (max-width: 950px){
-				.responsive {
-					width: 20.0%;
-					margin: 6px 0;
-				}
-			}
-			
-			@media only screen and (max-width: 800px){
-				.responsive {
-					width: 25.0%;
-					margin: 6px 0;
-				}
-			}
-			
-			@media only screen and (max-width: 650px){
-				.responsive {
-					width: 33.0%;
-					margin: 6px 0;
-				}
-			}
-			
-			@media only screen and (max-width: 500px){
-				.responsive {
-					width: 49.99999%;
-					margin: 6px 0;
-				}
-			}
-
-			@media only screen and (max-width: 350px){
-				.responsive {
-					width: 100%;
-				}
-			}
-
-			.clearfix:after {
-				content: "";
-				display: table;
-				clear: both;
-			}
 		</style>
 		
 	</head>
 	
-	<body style="background-color:#FF7C00;">
+	<body style="background-color: #FF7C00;">
 	
-		<div class="responsive">
-			<div class="gallery" style="background-color:#E57000;">
+		<div class="gallery">
+			<div class="image">
 				<a href="./indian-1.jpg" rel="lightbox-american-indians" title="American Indian 1">
 				  <img src="./indian-1-thumb.jpg" title="American Indian 1" alt="American Indian 1">
 				</a>
-			<div class="desc">American Indian 1</div>
-		  </div>
-		</div>
+				<div class="desc">American Indian 1</div>
+			</div>
 		
-		<div class="responsive">
-			<div class="gallery" style="background-color:#E57000;">
+			<div class="image">
 				<a href="./indian-2.jpg" rel="lightbox-american-indians" title="American Indian 2">
 				  <img src="./indian-2-thumb.jpg" title="American Indian 2" alt="American Indian 2">
 				</a>
-			<div class="desc">American Indian 2</div>
-		  </div>
-		</div>
+				<div class="desc">American Indian 2</div>
+			</div>
 		
-		<div class="responsive">
-			<div class="gallery" style="background-color:#E57000;">
+			<div class="image">
 				<a href="./indian-3.jpg" rel="lightbox-american-indians" title="American Indian 3">
 				  <img src="./indian-3-thumb.jpg" title="American Indian 3" alt="American Indian 3">
 				</a>
-			<div class="desc">American Indian 3</div>
-		  </div>
-		</div>
-		
-		<div class="responsive">
-			<div class="gallery" style="background-color:#E57000;">
+				<div class="desc">American Indian 3</div>
+			</div>
+			
+			<div class="image">
 				<a href="./indian-4.jpg" rel="lightbox-american-indians" title="American Indian 4">
 				  <img src="./indian-4-thumb.jpg" title="American Indian 4" alt="American Indian 4">
 				</a>
-			<div class="desc">American Indian 4</div>
-		  </div>
-		</div>
-		
-		<div class="responsive">
-			<div class="gallery" style="background-color:#E57000;">
+				<div class="desc">American Indian 4</div>
+			</div>
+	
+			<div class="image">
 				<a href="./indian-5.jpg" rel="lightbox-american-indians" title="American Indian 5">
 				  <img src="./indian-5-thumb.jpg" title="American Indian 5" alt="American Indian 5">
 				</a>
-			<div class="desc">American Indian 5</div>
-		  </div>
-		</div>
-		
-		<div class="responsive">
-			<div class="gallery" style="background-color:#E57000;">
+				<div class="desc">American Indian 5</div>
+			</div>
+		  
+			<div class="image">
 				<a href="./indian-6.jpg" rel="lightbox-american-indians" title="American Indian 6">
 				  <img src="./indian-6-thumb.jpg" title="American Indian 6" alt="American Indian 6">
 				</a>
 			<div class="desc">American Indian 6</div>
 		  </div>
-		</div>
 		
-		<div class="responsive">
-			<div class="gallery" style="background-color:#E57000;">
+			<div class="image">
 				<a href="./indian-7.jpg" rel="lightbox-american-indians" title="American Indian 7">
 				  <img src="./indian-7-thumb.jpg" title="American Indian 7" alt="American Indian 7">
 				</a>
-			<div class="desc">American Indian 7</div>
-		  </div>
-		</div>
+				<div class="desc">American Indian 7</div>
+			</div>
 		
-		<div class="responsive">
-			<div class="gallery" style="background-color:#E57000;">
+			<div class="image">
 				<a href="./indian-8.jpg" rel="lightbox-american-indians" title="American Indian 8">
 				  <img src="./indian-8-thumb.jpg" title="American Indian 8" alt="American Indian 8">
 				</a>
-			<div class="desc">American Indian 8</div>
-		  </div>
+				<div class="desc">American Indian 8</div>
+			</div>
 		</div>
-
+		
 		<script type="text/javascript" src="../slimbox/jquery.min.js"></script>
 		<script type="text/javascript" src="../slimbox/slimbox2-autosize.js"></script>
 	</body>
